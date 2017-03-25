@@ -95,6 +95,10 @@ First of all, right click on the `.htm` file and open it with a browser of your 
 Before using the startpage, I suggest you to :
 - download the font I used, namely `Helvetica Rounded` (http://www.ephifonts.com/free-helvetica-font-helvetica-rounded-complete.html), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
 
+Source and Credits
+-------------------------------
+The original vaporwave is from sadweebs420's tumblr : https://sadweebs420.tumblr.com/
+
 Where can I find you works ?
 -------------------------------
 
