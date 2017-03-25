@@ -1,5 +1,7 @@
 # Galaxy
 
+![screenshot](http://i.imgur.com/olN0viD.jpg)
+
 What's a startpage/homepage ?
 -------------------------------
 
@@ -91,7 +93,7 @@ First of all, right click on the `.htm` file and open it with a browser of your 
 - download the extension `New Tab Redirect` (https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en)
 
 Before using the startpage, I suggest you to :
-- download the font I used, namely `Montserrat` (https://www.fontsquirrel.com/fonts/montserrat), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
+- download the font I used, namely `Helvetica Rounded` (http://www.ephifonts.com/free-helvetica-font-helvetica-rounded-complete.html), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
 
 Where can I find you works ?
 -------------------------------
