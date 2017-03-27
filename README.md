@@ -1,6 +1,7 @@
 # Galaxy
 
 ![screenshot](http://i.imgur.com/olN0viD.jpg)
+if you want to check this cute anime grill on your computer, here a [live version](http://username.github.io/projectName/)
 
 What's a startpage/homepage ?
 -------------------------------
