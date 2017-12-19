@@ -47,9 +47,9 @@ Features
 
 <span><i>Galaxy</i> has three main features.</span>
 <ol>
-<li>the sidebar with three buttons that will make appear onclick three list of links (at least ten links per list).</li>
+<li>The sidebar has three buttons, each will make appear onclick a list of links (at least ten links per list).</li>
 <li>In the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia.</li>
-<li>the weather 'widget' by location (<a href="https://github.com/xDemonessx/homepage">code source</a>).</li>
+<li>The weather widget by location (<a href="https://github.com/xDemonessx/homepage">code source</a>).</li>
 
 Customizing
 -------------------------------
