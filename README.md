@@ -54,7 +54,7 @@ Features
 Customizing
 -------------------------------
 
-## Weather Location
+### Weather Location
 - go to http://openweathermap.org/, create an account and generate an API key, then you'll have to call it, to do that copy/paste the following link in your URL bar, and don't forget to replace {APIKEY} by your API key : 
 
 ```javascript 
