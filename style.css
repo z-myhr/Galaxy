@@ -13,14 +13,14 @@
 
 /* CONTENT */
 	#container {
-		background-image: url("background/background01.png");
+		background-image: url("pictures/wall.png");
 		background-position: center !important;
 		background-repeat: no-repeat !important;
 		background-size: cover !important;
 		width: 100%;
 		height: 100%;
 		position: absolute;
-		top: 0;
+		top:0;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -32,10 +32,10 @@
 			border-radius: 3px;
 			width: 180px;
 			height: 50px;
-			text-align: center;
 			position: absolute;
 			right: 20px;
 			top: 20px;
+			text-align: center;
 		}
 		#weather {
 			line-height: 17px;
@@ -44,31 +44,32 @@
 			color: #FFF;
 			font-family: "Helvetica Rounded" !important;
 			font-size: 12pt;
-			text-transform: lowercase;
 			display: inline-block;
+			text-transform: lowercase;
+
 		}
 		#temp_curr {
 			color: #FFF;
 			font-family: "Helvetica Rounded" !important;
 			font-size: 12pt;
-			padding-left: 2px;
 			display: inline-block;
+			padding-left: 2px;
 		}
 	/** SEARCH **/
 		.form {
-			text-align: right;
 			position: absolute !important;
+			z-index: 9999 !important;
 			top: 90px !important;
 			right: 0px !important;
 			margin: auto !important;
-			z-index: 9999 !important;
+			text-align: right;
 		}
 		#image-button {
 			background-image: url("icons/submit.png");
 			background-repeat: no-repeat;
 			background-position: left;
 			background-size: 27px auto;
-			padding: 16px 20px 16px 16px;
+			padding: 17px 20px 17px 16px;
 			width: 10px;
 			margin-left: -26px;
 		}
@@ -137,6 +138,7 @@
 			position: absolute;
 			margin-left: 20%;
 			margin-top: 18%;
+			width: 50px;
 		}
 		.button.active {
 			background: #472936;
