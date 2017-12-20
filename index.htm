@@ -21,14 +21,41 @@
 				$el.addClass('active');
 				$($el.data('rel')).show();
 			}
+
+			function changeBg() {
+				var now = new Date();
+				var n = now.getHours();
+				
+				if ( n >= 12 && n <= 17 ) {
+				       	picture = "url('background/background01.png')";
+					color1 = "#1F9EA3";
+					color2 = "#4CD4B0";
+					message="おはよう"
+				} else if ( n >= 18  && n <= 24) {
+					picture = "url('background/background02.png')";
+					color1 = "#00587A";
+					color2 = "#F0B799";
+					message=" こんにちは"
+				} else if ( n >= 0 && n <= 11 ) {
+					picture = "url('background/background03.png')";
+					color1 = "#1C9987";
+					color2 = "#CCCCCC";
+					message=" こんばんは"
+				} 
+				document.getElementById("container").style.background = picture;
+				document.getElementById("border").style.background = color1;
+				document.getElementById('box1').style.color = document.getElementById('box2').style.color = document.getElementById('box3').style.color = color2;
+				document.getElementById("details").style.background = color2;
+				document.getElementById("message").innerHTML = message;
+			 }
+			 changeBg();
 		        });
 	        </script>
 	</head>
-
 	<body>
 	        	<div id="container">
 		              <div class="sidebar">
-		                              <div class="border"></div>
+		                              <div id="border"></div>
 		                              <button id="first-btn" class="button active" data-rel="#box1">01</button>
 			                              <div class="box" id="box1">
 			                                	<h1>Yotsuba</h1>
@@ -71,18 +98,19 @@
 				                            <a href="http://mangastream.com/">mangastream</a>
 				                            <a href=""></a>
 			                              </div>	                            
-		              </div>
-	                            <div class="form">
+		             	</div>
+	                           <div class="form">
 	                           		<input  id="searchbox" name="q" type="text" autocomplete="off" class="cleardefault" maxlength="100"   placeholder="search engine ..." size="17" autofocus="autofocus" />
 	                           		<input type="submit" id="image-button" value=""></input>
-	                            </div>
-			<div class="details">
+	                           </div>
+			<div id="details">
 				<div id="weather">
 					<h2 id="description"></h2>
 					<h3 id="temp_curr"></h3>
 				</div> 
 			</div>
-	        </div>
+			<div id="message"></div>
+	        	</div>
 	</body>
 	<script type="text/javascript" src="js/search.js"></script>
   	<script src="js/weather.js"></script>
