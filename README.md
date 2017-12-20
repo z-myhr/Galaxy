@@ -52,9 +52,10 @@ I use several fonts for the startpage.
 Features
 -------------------------------
 
-<span><i>Galaxy</i> has three main features.</span>
+<span><i>Galaxy</i> has four main features.</span>
 <ol>
 <li>The sidebar has three buttons, each will make appear onclick a list of links (at least ten links per list).</li>
+<li>There are three backgrounds that rotate between each other depending of the hour.</li>
 <li>In the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia.</li>
 <li>The weather widget by location (<a href="https://github.com/xDemonessx/homepage">code source</a>).</li>
 </ol>
