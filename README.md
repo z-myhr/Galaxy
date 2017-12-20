@@ -102,9 +102,10 @@ break;
 
 Disclaimer
 -------------------------------
+
 <span>Source of the illustrations used.</span>
 <ol>
-<li><a href="https://www.pixiv.net/member.php?id=654533">a y u</a>
+<li><a href="https://www.pixiv.net/member.php?id=654533">a y u</a></li>
 </ol>
 
 
