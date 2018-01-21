@@ -45,8 +45,8 @@ Instruction
 I use several fonts for the startpage.
 <ol>
 <li> <a href="http://www.ephifonts.com/free-helvetica-font-helvetica-rounded-complete.html">Helvetica Rounded</a>
-<li> <a href="https://www.fontsquirrel.com/fonts/roboto">Roboto</a></li>
 <li> <a href="https://www.freejapanesefont.com/kf-himaji/">KFhimaji</a></li>
+<li> <a href="https://www.fontsquirrel.com/fonts/roboto">Roboto</a></li>
 </ol>
 
 Features
