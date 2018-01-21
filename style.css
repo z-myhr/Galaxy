@@ -71,10 +71,10 @@
 	}
 	input {
 		background: #453744;
-		border: none;
+		border: none !important;
 		border-radius: 2px;
 		color: #FFF;
-		font-size: 12pt;
+		font-size: 14pt;
 		font-stretch: condensed;
 		padding: 17px 20px;
 		text-align: left;
@@ -88,17 +88,20 @@
 	}
 	#message {
 		color: #FFF;
-		font-size: 16pt;
+		font-size: 56pt;
 		font-family: "KFhimaji" !important;
 		font-weight: bold;
 		height: 50px;
-		width: 200px;
+		width: 50%;
 		letter-spacing: .5px;
 		line-height: 50px;
 		position: absolute;
-		right: 34px;
-		bottom: 20px;
-		text-align: right;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		margin: auto;
+		text-align: center;
 	}
 	.sidebar {
 		/* SIDEBAR */
