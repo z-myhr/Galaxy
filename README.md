@@ -100,14 +100,6 @@ window.location = "http://bato.to/search?name="
 break;
 ```
 
-Disclaimer
--------------------------------
-<span>Source of the illustrations used.</span>
-<ol>
-<li><a href="https://www.pixiv.net/member.php?id=654533">a y u</a>
-</ol>
-
-
 Report
 -------------------------------
 If you find some issues or bug when using this startpage, don't hesitate to report it in the comments.
