@@ -2,7 +2,7 @@
 <html>
 	<head>
 	        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	        <title>Home -- Welcome to the internet</title>
+	        <title>Far Away from the Galaxy</title>
 	        <link rel="shortcut icon" type="image/png" href="icons/favicon.png"/>
 	        <link rel="stylesheet" type="text/css" href="style.css">
 	        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
@@ -28,24 +28,25 @@
 				
 				if ( n >= 12 && n <= 17 ) {
 				       	picture = "url('background/background01.png')";
-					color1 = "#1F9EA3";
-					color2 = "#4CD4B0";
+					color1 = "#EE7546";
+					color2 = "#CA6769";
 					message="おはよう"
-				} else if ( n >= 18  && n <= 24) {
+				} else if ( n >= 0  && n <= 11) {
 					picture = "url('background/background02.png')";
-					color1 = "#00587A";
-					color2 = "#F0B799";
+					color1 = "#557780";
+					color2 = "#2CC990";
 					message=" こんにちは"
-				} else if ( n >= 0 && n <= 11 ) {
+				} else if ( n >= 18 && n <= 24 ) {
 					picture = "url('background/background03.png')";
-					color1 = "#1C9987";
-					color2 = "#CCCCCC";
+					color1 = "#444444";
+					color2 = "#5A5A5A";
 					message=" こんばんは"
 				} 
 				document.getElementById("container").style.background = picture;
 				document.getElementById("border").style.background = color1;
 				document.getElementById('box1').style.color = document.getElementById('box2').style.color = document.getElementById('box3').style.color = color2;
 				document.getElementById("details").style.background = color2;
+				document.getElementById("message").style.textShadow = '5px 5px ' + color1;
 				document.getElementById("message").innerHTML = message;
 			 }
 			 changeBg();
@@ -92,7 +93,7 @@
 				                            <a href="http://bato.to/">batoto</a>
 				                            <a href="https://manga.madokami.al/">madokami</a>
 				                            <a href="https://myanimelist.net/">mal</a>
-				                            <a href="https://www.nyaa.si/">nyaa</a>
+				                            <a href="https://www.nyaa.se/">nyaa</a>
 				                            <a href="http://hitomi.la/">hitomi</a>
 				                            <a href="http://erogedownload.com/">eroge</a>
 				                            <a href="http://mangastream.com/">mangastream</a>
