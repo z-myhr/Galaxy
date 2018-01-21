@@ -1,13 +1,13 @@
 # Galaxy
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1266.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-12663980ab1392fb839d.png)
 morning, between 0h and 11h
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1264.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-1264736a80e20bbc5836.png)
 afternoon, between 12h and 17h
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1267.png)
-evening, between 18h and 24h
+![screenshot](https://s1.gifyu.com/images/Screenshot-12670f3349e6594bc633.png)
+evening, between 18h and 23h
 
 [Live Demo](https://catgrills.github.io/Galaxy/) of <i>Galaxy</i>.
 
