@@ -14,7 +14,7 @@ evening, between 18h and 23h
 About
 -------------------------------
 
-<i>Galaxy</i> is a startpage featuring a sidebar with three boxes of link, and has  a different background depending of the hour.
+<i>Galaxy</i> is a startpage featuring a sidebar with three boxes of link, and has a different background depending of the hour.
 
 A startpage/homepage is a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as you new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
 
@@ -99,15 +99,6 @@ query = query.substr(3);
 window.location = "http://bato.to/search?name=" 
 break;
 ```
-
-Disclaimer
--------------------------------
-
-<span>Source of the illustrations used.</span>
-<ol>
-<li><a href="https://www.pixiv.net/member.php?id=654533">a y u</a></li>
-</ol>
-
 
 Report
 -------------------------------
