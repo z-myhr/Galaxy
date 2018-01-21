@@ -3,7 +3,7 @@
 ![screenshot](https://s1.gifyu.com/images/Screenshot-12663980ab1392fb839d.png)
 morning, between 0h and 11h
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1264036bb530fbf2222f.png)
+![screenshot](https://s1.gifyu.com/images/ede.png)
 afternoon, between 12h and 17h
 
 ![screenshot](https://s1.gifyu.com/images/Screenshot-12670f3349e6594bc633.png)
