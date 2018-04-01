@@ -7,53 +7,7 @@
 	<link rel="shortcut icon" type="image/png" href="icons/favicon_01.png" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('.button').click(function (e) {
-				e.preventDefault();
-				setContent($(this));
-			});
 
-			$('.button.active').length && setContent($('.button.active'));
-
-			function setContent($el) {
-				$('.button').removeClass('active');
-				$('.box').hide();
-				$el.addClass('active');
-				$($el.data('rel')).show();
-			}
-
-			function changeBg() {
-				var now = new Date();
-				var n = now.getHours();
-
-				if (n >= 12 && n <= 17) {
-					picture = "url('background/background01.png')";
-					color1 = "#EE7546";
-					color2 = "#CA6769";
-					message = "おはよう"
-				} else if (n >= 0 && n <= 11) {
-					picture = "url('background/background02.png')";
-					color1 = "#557780";
-					color2 = "#2CC990";
-					message = " こんにちは"
-				} else if (n >= 18 && n <= 24) {
-					picture = "url('background/background03.png')";
-					color1 = "#444444";
-					color2 = "#5A5A5A";
-					message = " こんばんは"
-				}
-				document.getElementById("container").style.background = picture;
-				document.getElementById("border").style.background = color1;
-				document.getElementById('box1').style.color = document.getElementById('box2').style.color = document.getElementById(
-					'box3').style.color = color2;
-				document.getElementById("details").style.background = color2;
-				document.getElementById("message").style.textShadow = '5px 5px ' + color1;
-				document.getElementById("message").innerHTML = message;
-			}
-			changeBg();
-		});
-	</script>
 </head>
 
 <body>
@@ -116,8 +70,9 @@
 		</div>
 		<div id="message"></div>
 	</div>
+	<script src="js/index.js"></script>
+	<script src="js/search.js"></script>
+	<script src="js/weather.js"></script>
 </body>
-<script type="text/javascript" src="js/search.js"></script>
-<script src="js/weather.js"></script>
 
 </html>
