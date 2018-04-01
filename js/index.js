@@ -40,7 +40,7 @@ function changeBg() {
     styles.color2 = '#5a5a5a';
     styles.message = 'こんばんは';
   }
-  document.querySelector('#container').style.background = styles.picture;
+  document.querySelector('#container').style.backgroundImage = styles.picture;
   document.querySelector('#border').style.background = styles.color1;
   document.querySelector('#box1').style.color = styles.color2;
   document.querySelector('#box2').style.color = styles.color2;
