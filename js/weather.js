@@ -33,7 +33,7 @@ function insertWeatherInfo(city, temp_curr, temp_low, temp_high, description) {
 }
 
 const json_url =
-  'http://api.openweathermap.org/data/2.5/weather?q=Paris,fra&appid=a70d956581f575b02ad518684afb6c13';
+  'http://api.openweathermap.org/data/2.5/weather?q=Paris,fra&appid=YOUR_API_KEY_HERE';
 fetch(json_url)
   .then(res => res.json())
   .then(json_obj => {
